@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemen Semantik</title>
+</head>
+<body>
+    <header>
+        <h1>Nama Kalian</h1>
+
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="Lagu">
+        <p>Daftar <span class="highlight">Lagu</span></p>
+        <ul>
+            <li>lagu 1</li>
+            <li>lagu 2</li>
+            <li>lagu 3</li>
+        </ul>
+        <audio autoplay 
+         src="bang-udah-bang.mp3" controls>
+        </audio>
+
+    </div>
+
+    <div>  
+        <p>Daftar <span class="highlight">Film</span></p>
+        <ol>
+            <li>film 1</li>
+            <li>film 2</li>
+            <li>film 3</li>
+        </ol>
+        <video autoplay
+        src="videocontoh.mp4" controls></video>
+    </div>
+
+    <div id="contactme">
+        <h3>Hubungi Saya</h3>
+        <from action="">
+            <table border="1">
+                <tr>
+                    <td><label for="name">Nama</label></td>
+                    <td><input type="text" name="name" id="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="number">Nomor Telepon</label></td>
+                <td><input type="number" name="number" id="number"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Jenis Kelamin</label></td><td>
+                        <select name="gender" id="gender">
+                            <option value="Laki-laki">Laki-laki</option>
+                            <option value="Perempuan">Perempuan</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="message">Pesan</label></td>
+                    <td><input type="checkbox" name="message" id="message"></td>
+                </tr>
+                <tr>
+                    <td><label for="message">Pesan</label></td>
+                    <td><textarea name="message" id="message" cols="30" rows="10"></textarea></td>
+                </tr>
+            </table>
+            <button type="submit">Kirim</button>
+            <button type="reset">Reset</button>
+        </from>
+    </div>
+</body>
+</html>
