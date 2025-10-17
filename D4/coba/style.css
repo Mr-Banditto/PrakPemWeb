@@ -1,0 +1,49 @@
+.card-lagu {
+    width: 300px;
+    padding: 20px;
+    margin: 15px;
+    border: 1px solid;
+    border-color: black;
+    text-align: center;
+    border-radius: 20px;
+    color: pink
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-lagu .contoh-lagu {
+    font-size: x-large;
+    font-weight: bolder;
+    /* text-align: left; */
+    color: green;
+}
+
+.card-lagu button{
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.card-lagu button:hover{
+    background-color: blue;
+}
+/* body {
+    background-image: url('myfoto.jpg');
+    opacity: 0.5;
+    background-repeat: repeat;
+} */
+
+li::marker{
+    color: red;
+    font-size: 30px;
+}
+
+p::first-letter{
+    font-size: xx-large;
+    color: blueviolet;
+}
+
+p::first-line{
+    font-size: xx-large;
+    color: green;
+}
