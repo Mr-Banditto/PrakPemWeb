@@ -1,0 +1,8 @@
+1. Proses Pengembangan
+Bootstrap lebih cepat di awal karena banyak komponen siap pakai seperti card dan form. Tailwind lebih fleksibel karena bisa atur gaya langsung dengan kelas. Tapi butuh waktu lebih lama di awal karena semua dibuat manual.
+
+2. Ukuran File & Kustomisasi
+HTML Bootstrap lebih bersih karena pakai sedikit kelas. Tailwind lebih panjang karena semua gaya ditulis di elemen. Tapi Tailwind lebih mudah untuk kustomisasi warna, ukuran, dan jarak.
+
+3. Kesimpulan
+Saya akan pakai Bootstrap kalau butuh hasil cepat dan tampilan standar. Tapi kalau ingin tampilan unik dan fleksibel, saya akan pilih Tailwind.
