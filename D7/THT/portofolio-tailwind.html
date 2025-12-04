@@ -1,0 +1,47 @@
+<!-- tailwind -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+  <div class="container mx-auto p-6">
+    <!-- Bio -->
+    <div class="md:flex md:items-center md:space-x-6 mb-10">
+      <div class="md:w-1/3 text-center mb-4 md:mb-0">
+        <img src="Contoh.png" alt="Foto Profil" class="rounded-full mx-auto shadow-lg">
+      </div>
+      <div class="md:w-2/3">
+        <h2 class="text-3xl font-bold text-blue-600">Radit Design</h2>
+        <p class="text-gray-700 mt-2">Seorang desainer grafis yang fokus pada identitas visual dan ilustrasi digital.</p>
+      </div>
+    </div>
+
+    <!-- Galeri -->
+    <h4 class="text-xl font-semibold mb-4">Galeri Proyek</h4>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-10">
+      <img src="Contoh.png" class="rounded-lg shadow-md">
+      <img src="Contoh.png" class="rounded-lg shadow-md">
+      <img src="Contoh.png" class="rounded-lg shadow-md">
+      <img src="Contoh.png" class="rounded-lg shadow-md">
+      <img src="Contoh.png" class="rounded-lg shadow-md">
+      <img src="Contoh.png" class="rounded-lg shadow-md">
+    </div>
+
+    <!-- Kontak -->
+    <h4 class="text-xl font-semibold mb-4">Kontak Saya</h4>
+    <form class="max-w-md">
+      <label class="block text-gray-700 text-sm font-bold mb-2">Nama</label>
+      <input class="border rounded w-full py-2 px-3 mb-4 focus:outline-none focus:ring" type="text">
+      <label class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+      <input class="border rounded w-full py-2 px-3 mb-4 focus:outline-none focus:ring" type="email">
+      <label class="block text-gray-700 text-sm font-bold mb-2">Pesan</label>
+      <textarea class="border rounded w-full py-2 px-3 mb-4 focus:outline-none focus:ring"></textarea>
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Kirim</button>
+    </form>
+  </div>
+</body>
+</html>
